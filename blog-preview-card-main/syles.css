@@ -40,6 +40,10 @@ div {
   box-shadow: 10px 10px;
 }
 
+.main-card:hover {
+  box-shadow: 20px 20px;
+}
+
 img {
   border-radius: 1rem;
 }
@@ -87,4 +91,9 @@ p {
 .attribution {
   position: relative;
   top: 60rem;
+}
+
+.bold:hover {
+  cursor: pointer;
+  color: var(--clr-yellow);
 }
