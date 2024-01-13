@@ -1,0 +1,88 @@
+:root {
+  --clr-yellow: hsl(47, 88%, 63%);
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-grey: hsl(0, 0%, 50%);
+  --clr-black: hsl(0, 0%, 7%);
+
+  --fs-primary: 16px;
+
+  --fw-semi-bold: 600;
+  --fw-bold: 800;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Figtree", sans-serif;
+  font-size: var(--fs-primary);
+}
+
+body {
+  background-color: var(--clr-yellow);
+  font-weight: var(--fw-semi-bold);
+}
+div {
+  margin-bottom: 1rem;
+}
+
+.main-card {
+  background-color: var(--clr-white);
+  border: solid 1px;
+  border-radius: 1rem;
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  height: min-content;
+  width: 21rem;
+  padding: 1rem;
+  box-shadow: 10px 10px;
+}
+
+img {
+  border-radius: 1rem;
+}
+.img {
+  display: flex;
+  justify-content: center;
+}
+
+.main-text {
+  display: flex;
+  flex-direction: column;
+}
+.learning {
+  background-color: var(--clr-yellow);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  width: 4rem;
+  font-weight: var(--fw-bold);
+}
+
+.bold {
+  font-weight: var(--fw-bold);
+  font-size: 1.5rem;
+}
+
+.text-grey {
+  color: var(--clr-grey);
+}
+
+footer {
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.icon {
+  width: 2rem;
+}
+
+p {
+  font-weight: var(--fw-bold);
+  font-size: 0.825rem;
+}
+
+.attribution {
+  margin-top: auto;
+  margin-bottom: auto;
+}
