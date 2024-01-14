@@ -92,6 +92,13 @@ p {
   position: relative;
   top: 60rem;
 }
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
 
 .bold:hover {
   cursor: pointer;
